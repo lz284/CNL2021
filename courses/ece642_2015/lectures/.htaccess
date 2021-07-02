@@ -1,0 +1,8 @@
+AuthUserFile /usr/local/htdocs/departments/cnl/bjabbari/courses/ece642_2015/lectures/.htpasswd
+AuthGroupFile /dev/null
+AuthName ECE642
+AuthType Basic
+
+<Limit GET>
+require user ece642f15
+</Limit>

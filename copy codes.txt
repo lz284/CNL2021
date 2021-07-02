@@ -1,0 +1,36 @@
+
+copy fold:
+
+cp -r /nfs/jiju41/dpt/cnl/bjabbari/courses/ece528f2020   /home/u5/lzhang36
+
+
+copy a file:
+
+cp /nfs/jiju41/dpt/cnl/pic4.jpg    /home/u5/lzhang36/
+
+
+
+copy a file:
+cp  /nfs/jiju41/dpt/cnl/teach.html   /home/u5/lzhang36
+
+ image[number++] = <a href="https://cnl.gmu.edu/bridges/"><img border="0" src="picture/pic5.jpg"></a>
+
+    <script language="javascript">
+		function image(){};
+
+		number = 0;
+		image[number++] = "<img src='picture/pic1.jpg' border='0'>"
+		image[number++] = "<img src='picture/pic2.jpg' border='0'>"
+		image[number++] = "<img src='picture/pic3.jpg' border='0'>"
+		image[number++] = "<img src='picture/pic4.jpg' border='0'>"
+    image[number++] = "<img src='picture/pic5.jpg' border='0'>"
+    
+    "<a href="https://cnl.gmu.edu/bridges/"><img src='picture/pic4.jpg' border='0'></a>"
+
+		increment = Math.floor(Math.random() * number);
+
+
+
+    document.write("<a href="+bannerurl+">"+image[increment])
+	
+	  </script>
