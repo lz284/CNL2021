@@ -100,7 +100,7 @@ all the page's images, just add your own images to the pattern */
 display:block;
 margin:0 auto;
 padding:0;
-width:90%;
+width:99.6%;
 background: transparent url("media/gradient_beige.jpg") repeat-x left top; 
 border: 1px solid #000000;
 text-align:center;
@@ -112,16 +112,16 @@ float:left;
 margin:0;
 padding:0;
 width:100%;
-height:72px;
-background: transparent url("media/osp_smallsolid.jpg") repeat-x left top;
+height:120x;
+background: transparent url("media/osp_smallsolid0.png") repeat-x left top;
 }
 
 .rowone_left {
 float:left;
 margin:0;
 padding:0;
-width:69.5%;
-height:72px;
+width:70%;
+height:120px;
 /*background: transparent url("media/tiger65.gif") no-repeat left bottom;*/
 text-align:left;
 }
@@ -132,11 +132,11 @@ float:right;
 margin:0;
 padding:0;
 width:30%;
-height:72px;
+height:120px;
 /*background: transparent url("media/stucco-bigtran.gif") no-repeat 95% 100%;*/
 text-align:left;
-	color: #cc9966;
-font-size: 1em;
+	color: #F0FFFF ; /*#cc9966*/
+font-size: 2.0em;
 font-weight:bold;
 	filter:dropshadow(color=#000000, offx=1, offy=1, positive=true);
 }
@@ -147,9 +147,9 @@ float:left;
 margin:0;
 padding:0;
 width:100%;
-background-color: #2B2B4C;
-border-top:1px solid black;
-border-bottom:1px solid black;
+background-color: #FFDEAD; /*#2B2B4C*/
+border-top:   none;      /*1px solid black;*/
+border-bottom:  none;          /*1px solid black;*/
 }
 
 .rowtwo_left {
@@ -184,7 +184,7 @@ margin:0 auto;
 padding:0;
 width:18%;
 height:400px;
-background-color: #7272a4;
+background-color: #7272a4;  
 border-right:1px solid black;
 text-align:center;
 }
@@ -204,10 +204,10 @@ text-align:center;
 float:left;
 margin:0 auto;
 padding:0;
-width:18%;
-height:750px;
-background-color: #7272a4;
-border-right:1px solid black;
+width:13%;
+height:800px;
+background-color: #F0FFF0;  /*#7272a4*/  
+border-right: none; /*1px solid black;*/
 text-align:center;
 }
 
@@ -459,15 +459,15 @@ margin:0 auto;
 padding:0;
 padding-top:15px;
 text-align:center;
-width:136px;
+width:180px;
 }
 
 /***  Levels: Styles and Positioning  *****/
 .toplevel {
-	FONT-SIZE: 15px; 
-	WIDTH: 160px; 
-	COLOR: #FFFFFF; 
-	BORDER-BOTTOM: #866a32 0px solid; 
+	FONT-SIZE: 18px; 
+	WIDTH: 180px; 
+	COLOR:  #F0FFF0;            /*#FFFFFF; */
+	BORDER-BOTTOM: #FF8000 0px solid;   /*#866a32*/
 	FONT-FAMILY: Arial, Helvetica, sans-serif
 }
 .level2,
@@ -487,7 +487,7 @@ width:136px;
 #nav {
 	margin:0; 
 	padding:0; 
-	WIDTH: 136px; 
+	WIDTH: 180px; 
 	LIST-STYLE-TYPE: none; 
 	text-align:left;
 }
@@ -502,8 +502,8 @@ padding-top:6px; /*** padding here is above below buttons ***/
 padding-bottom:6px; /*** padding here is above below buttons ***/
  /****  BACKGROUND: url("/oxis/images_OSIS/blankbevblue.gif") no-repeat center; ****/
 /**  darkblue button-look = background #2b4b7c  **/
-background-color:#333366;
-border: 1px ridge #E4A84B;
+background-color:#8A360F;  /*#333366*/
+border: 2px ridge #FFFFCD;  /*#E4A84B*/ 
 text-indent:5px;}
 
 /***  2nd + 3rd level list items  ****/
@@ -545,7 +545,7 @@ padding-bottom:2px; /*** padding here is above below buttons ***/
 /***  Main List Hover (gold) ****/
 #nav LI A:hover {
 	COLOR: #cc9966; 
-	background-color:#2B2B4C;
+	background-color:#2B2B4C;       
 /** any border here, effects all levels  **/
 }
 
@@ -595,20 +595,20 @@ padding-bottom:2px; /*** padding here is above below buttons ***/
 h1 {
 	margin:0; 
 	padding:0;
-	padding-top:22px;
-	font-size: 1.5em;
+	padding-top:18px;
+	font-size: 3.0em;
 	font-weight: bold;
-	color: #cc9966;
+	color: #F0FFFF;      /*#cc9966;*/
 	width:100%;
-	filter:dropshadow(color=#000000, offx=1, offy=1, positive=true);
+	filter:dropshadow(color= #0000FF , offx=1, offy=1, positive=true);  /*#000000*/
 	text-indent:100px;}
 
 .h1b {
 	margin:0; 
 	padding:0;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	font-weight: bold;
-	color: #cc9966;
+	color: #F0FFFF;
 	width:100%;
 	filter:dropshadow(color=#000000, offx=1, offy=1, positive=true);
 	text-indent:100px;}
