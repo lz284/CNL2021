@@ -1,8 +1,0 @@
-AuthUserFile /usr/local/htdocs/departments/cnl/bjabbari/courses/ece528f2019/lectures/.htpasswd
-AuthGroupFile /dev/null
-AuthName ECE528
-AuthType Basic
-
-<Limit GET>
-require user ece528f19
-</Limit>
